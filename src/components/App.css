@@ -1,0 +1,35 @@
+.content-container{
+  max-width: 1060px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  word-break:break-all;
+}
+
+.search-bar{
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+  border: 1px solid rgba(128, 128, 128, 0.623);
+  border-radius: 25px;
+  color: dimgray;
+}
+
+*:focus{
+  outline: none;
+}
+
+.search-btn{
+  float: right;
+  margin-top: 10px;
+  color: white;
+  font-size: 1em;
+  padding: 10px 30px;
+  background-color: #222f3e;
+  border-radius: 25px;
+}
+

@@ -1,10 +1,18 @@
 import React from "react";
+import {SearchBar} from "./SearchBar";
+import "./App.css";
+
 
 class App extends React.Component{
+
+  onSearchSubmit = async (searchTerm) => {
+    console.log("term: ", searchTerm);
+  }
+
   render(){
     return(
-      <div>
-        <h1>bookss</h1>
+      <div className="content-container">
+        <SearchBar onSearchSubmit={this.onSearchSubmit}/>
       </div>
     );
   }
