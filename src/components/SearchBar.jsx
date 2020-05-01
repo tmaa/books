@@ -23,8 +23,9 @@ class SearchBar extends React.Component{
           <div>
             <h1 style={{color: "#222f3e"}}>Book search</h1>
             <input 
+              type="text"
               className="search-bar" 
-              placeholder="Search" 
+              placeholder="Enter book name" 
               onChange={this.onInputChange}
               value={this.state.searchTerm}
               />
