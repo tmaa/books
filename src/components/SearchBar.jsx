@@ -21,7 +21,6 @@ class SearchBar extends React.Component{
       <div>
         <form onSubmit={this.onSubmitForm}>
           <div>
-            <h1 style={{color: "#222f3e"}}>Book search</h1>
             <input 
               type="text"
               className="search-bar" 

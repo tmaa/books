@@ -27,6 +27,7 @@ class App extends React.Component{
     return(
       <div className="content-container">
         <div style={{paddingBottom: "80px"}}>
+          <h1 style={{color: "#222f3e", marginTop: "25px", paddingBottom: "20px"}}>Book search</h1>
           <SearchBar onSearchSubmit={this.onSearchSubmit}/>
         </div>
         <BookList books={this.state.books}/>
